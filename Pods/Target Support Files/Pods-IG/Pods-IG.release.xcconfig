@@ -1,0 +1,13 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift" "${PODS_CONFIGURATION_BUILD_DIR}/Ji" "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher" "${PODS_CONFIGURATION_BUILD_DIR}/MOLH" "${PODS_CONFIGURATION_BUILD_DIR}/MarqueeLabel" "${PODS_CONFIGURATION_BUILD_DIR}/NVActivityIndicatorView" "${PODS_CONFIGURATION_BUILD_DIR}/SideMenuSwift" "${PODS_CONFIGURATION_BUILD_DIR}/UICircularProgressRing"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Ji/Ji.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MOLH/MOLH.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MarqueeLabel/MarqueeLabel.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SideMenuSwift/SideMenuSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/UICircularProgressRing/UICircularProgressRing.framework/Headers" $(SDKROOT)/usr/include/libxml2
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "CFNetwork" -framework "CoreGraphics" -framework "Foundation" -framework "IQKeyboardManagerSwift" -framework "Ji" -framework "Kingfisher" -framework "MOLH" -framework "MarqueeLabel" -framework "NVActivityIndicatorView" -framework "QuartzCore" -framework "SideMenuSwift" -framework "UICircularProgressRing" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+SWIFT_INCLUDE_PATHS = $(inherited) $(SRCROOT)/Ji/Sources/Clibxml2
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
